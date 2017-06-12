@@ -7,20 +7,20 @@ Esta disciplina é aplicada na UFBA para alunos de 1º semestre de Ciência da C
 
 Assunto das Listas 
 
-1ª Lista - Expressões aritméticas 
+1ª lista - Expressões aritméticas 
 
-2ª Lista - Desvios condicionais 
+2ª lista - Desvios condicionais 
 
-3ª Lista - Laços
+3ª lista - Laços
 
-4ª Lista - Vetores
+4ª lista - Vetores
 
-5ª Lista - Strings
+5ª lista - Strings
 
-6ª Lista - Matrizes
+6ª lista - Matrizes
 
-7ª Lista - Ordenação
+7ª lista - Ordenação
 
-8ª Lista - Busca
+8ª lista - Busca
 
-9ª Lista - Recursão
+9ª lista - Recursão
