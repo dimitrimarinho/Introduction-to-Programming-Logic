@@ -75,5 +75,4 @@ int main(){
 		cin >> A >> V;
 	
 	}
-
 } 
