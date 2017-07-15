@@ -8,10 +8,8 @@ int main(void){
       int pais[N][2];
 
      for (int i = 0; i < N; i++){
-        for (int j = 0; j < 2; j++){
-            pais[i][j] = 0;
-        }
-     }
+     	pais[i][0] = -1;
+      }
 
      for (int medals = 0; medals < M; medals++){
           scanf("%d%d%d", &ouro, &prata, &bronze);
@@ -22,6 +20,7 @@ int main(void){
 
      for (int i = 0; i < N; i++){
           pais[i][1] = i+1;
+	  // printf("%d", pais[i][1]);
      }
      
      	for (c = 0; c < N-1; c++){
@@ -35,7 +34,8 @@ int main(void){
             }
           if (position != c){
               swap = pais[c][0];
-              swap2 = pais[c][1];
+	      swap2 = pais[c][1];
+              printf("SWAP %d , SWAP2 %d", swap, swap2);
               pais[c][0] = pais[position][0];
               pais[c][1] = pais[position2][1];
               pais[position][0] = swap;
@@ -44,7 +44,7 @@ int main(void){
 	    }
       
       for (int i = 0; i < N; i++){
-            printf("%d", &pais[i][1]);
+            printf("%d ", &pais[i][1]);
       }
 
 }
