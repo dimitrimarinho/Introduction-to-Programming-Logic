@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(void){
 
-      int N, M, swap1, swap2, ouro, prata, bronze, c , d, position, position2;
+      int N, M, swap, swap2, ouro, prata, bronze, c , d, position, position2;
       scanf("%d%d", &N, &M);  
       int pais[N][2];
 
@@ -35,7 +35,7 @@ int main(void){
             }
           if (position != c){
               swap = pais[c][0];
-              swap2 = ident[c][1];
+              swap2 = pais[c][1];
               pais[c][0] = pais[position][0];
               pais[c][1] = pais[position2][1];
               pais[position][0] = swap;
