@@ -1,3 +1,5 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/BACT09/
+
 #include<stdio.h>
 #include<math.h>
 int main(void){
