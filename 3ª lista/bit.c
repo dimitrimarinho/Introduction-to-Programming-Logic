@@ -1,4 +1,5 @@
 // Link of the problem (language PT-BR): http://br.spoj.com/problems/BIT/
+// (Name of the problem) BIT - Bits Trocados
 
 #include<stdio.h>
 int main(void){
@@ -14,17 +15,10 @@ int main(void){
 		J = (V - (I * 50) )/10;
 		K = (V - ( (I*50) + (J * 10)) )/5;
 		L = (V - ( (I*50) + (J * 10) + (K * 5)));
-
 	
 		printf("\nTeste %d\n", ++teste);
 		printf("%d %d %d %d\n", I, J, K, L);	
 
 		scanf("%d", &V);
-
 	}
-
-
-
-
-
 }
