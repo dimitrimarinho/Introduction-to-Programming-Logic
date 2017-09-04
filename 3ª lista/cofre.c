@@ -1,4 +1,5 @@
-// Cofrinhos da Vó Vitória
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/COFRE/
+// (Name of the problem) COFRE - Cofrinhos da Vó Vitória
 
 #include<stdio.h>
 int main(void){
@@ -15,6 +16,5 @@ int main(void){
 		}
 		dif = 0;
 		scanf("%d", &N);
-
 	}
 }
