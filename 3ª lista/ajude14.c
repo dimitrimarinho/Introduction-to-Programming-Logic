@@ -1,4 +1,4 @@
-// Link do Problema: http://br.spoj.com/problems/AJUDE14/
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/AJUDE14/
 
 #include<stdio.h>
 int main(void){
