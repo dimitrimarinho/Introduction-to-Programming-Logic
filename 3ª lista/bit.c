@@ -1,3 +1,5 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/BIT/
+
 #include<stdio.h>
 int main(void){
 
