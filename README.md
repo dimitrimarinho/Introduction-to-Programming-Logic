@@ -8,7 +8,7 @@ As listas são passadas como prática para aprender os assuntos de Lógica de Pr
 
 Em geral, a maioria dos docentes na UFBA lecionam esta disciplina nas linguagens C e C++.
 
-Os problemas dos códigos são retirados do SPOJ (Sphere Online Judge), na versão em português (BR - SPOJ). O SPOJ é um site que contém muitos problemas de Maratonas de Programação Brasileiras. Neste repositório a primeira linha do código contém o link do problema cujo código soluciona.
+Os problemas dos códigos são retirados do SPOJ (Sphere Online Judge), na versão em português (BR - SPOJ). O SPOJ é um site que contém muitos problemas de Maratonas de Programação Brasileiras. Neste repositório a primeira linha do código contém o link do problema cujo código soluciona. Alguns problemas são fornecidos em PDF dentro da plataforma CD-MOJ utilizada pela UFBA, nestes códigos não haverá o link do problema.
 
 # Assunto das Listas 
 
