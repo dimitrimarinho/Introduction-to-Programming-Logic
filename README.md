@@ -12,7 +12,7 @@ Os problemas dos códigos são retirados do SPOJ (Sphere Online Judge), na vers�
 
 P.S. (1) Estes códigos servem como orientação para quem está com dificuldades. **Estudantes da UFBA que estiverem com estes códigos na lista NÃO COPIEM !** Aprendam, ou terão dificuldade com as próximas disciplinas de programação como Estrutura de Dados.
 
-P.S. (2) Estes códigos foram feitos por mim enquanto cursava a disciplina, portanto, quem já tem maior domínio de programação com certeza encontrará soluções mais práticas e rápidas para resolver os mesmos problemas. No entanto, na disciplina não somos encorajados a usar bibliotecas, portanto as ordenações (e outros) realmente precisavam ser feitas a mão, sem implementar bibliotecas.
+P.S. (2) Estes códigos foram feitos por mim enquanto cursava a disciplina, portanto, quem já tem maior domínio de programação com certeza encontrará soluções mais práticas e rápidas para resolver os mesmos problemas. No entanto, na disciplina não somos encorajados a usar bibliotecas, portanto as ordenações (e outros) realmente precisavam ser feitas a mão, sem implementar bibliotecas. Códigos nomeados com "nome-2" ou "nome-x" (com x > 2) são códigos que foram refeitos para estudar para as avaliações ou por algum outro motivo.
 
 ## Assunto das Listas 
 
@@ -46,7 +46,7 @@ The problems of the codes are taken from the SPOJ (Sphere Online Judge) in the P
 
 P.S. (1) These codes serve as guidance for people who are struggling. **Students of UFBA who are with these codes in the list DO NOT COPY!** Learn, or you will have difficulty with the next programming disciplines like Data Structure.
 
-P.S. (2) These codes were made by me while I was studying a course, so those who already have a higher level of programming will surely find more practical alternative solutions to solve the same problems. However, in the discipline we are not encouraged to use libraries, therefore, as Sorting (and others) really needed to be done by hand, without implementing libraries.
+P.S. (2) These codes were made by me while I was studying a course, so those who already have a higher level of programming will surely find more practical alternative solutions to solve the same problems. However, in the discipline we are not encouraged to use libraries, therefore, as Sorting (and others) really needed to be done by hand, without implementing libraries. Codes named with "name-2" or "name-x" (with x> 2) are codes that have been redone to study for evaluation or for some other reason.
 
 ## List Subject
 
