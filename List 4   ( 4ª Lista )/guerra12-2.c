@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/GUERRA12/
+// (Name of the problem) GUERRA12 - Guerra por Território
+
 #include<stdio.h>
 int main(void){
 

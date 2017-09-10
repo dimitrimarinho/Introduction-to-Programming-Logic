@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/MINADO12/
+// (Name of the problem) MINADO12 - Campo minado
+
 #include<stdio.h>
 int main(void){
 

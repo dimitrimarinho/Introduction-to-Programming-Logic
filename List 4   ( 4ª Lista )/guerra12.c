@@ -1,10 +1,13 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/GUERRA12/
+// (Name of the problem) GUERRA12 - Guerra por Território
+
 #include<stdio.h>
 int main(void){
 
 	long long N, s = 0, s1 = 0, r;
 	scanf("%lli", &N);
 	long long n[N];
-	
+
 	for (int i = 0; i < N; i++){
 		scanf("%lli", &n[i]);
 		s += n[i];
@@ -18,8 +21,5 @@ int main(void){
 		}
 	}
 	printf("%lli\n", r);
-	
-	
-	
-}
 
+}

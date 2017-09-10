@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/VIVO/
+// (Name of the problem) VIVO - Vivo ou Morto
+
 #include<stdio.h>
 int main(void){
 
@@ -5,7 +8,7 @@ int main(void){
 	//  A primeira linha de um caso de teste contém dois números inteiros P e R indicando respectivamente a quantidade inicial de participantes (2 <= P <= 100) e quantidade de rodadas da partida (1 <= R <= 100)
 	scanf("%d%d", &P, &R);
 	int test=0;
-	
+
 	while (P != 0 && R != 0){
 		int p[P];
 	for (int i = 0 ; i < P; i++){
@@ -17,7 +20,7 @@ int main(void){
 		}
 		for (int r = 0; r < R; r++){
 			scanf("%d%d", &pr, &o);
-			
+
 	       for (int j = 0 ; j < P; j++){
 		        if (p[j] != -1){
 				     scanf("%d", &jog);
@@ -26,14 +29,12 @@ int main(void){
 				     }
 				    if(p[j] != -1){
 				       res = p[j];
-		           }	
-				}
+		        }
+				   }
 			 }
 		}
 		printf("\nTeste %d\n", ++test);
 		printf("%d\n", res);
-		scanf("%d%d", &P, &R);	
+		scanf("%d%d", &P, &R);
 	}
-
-
 }

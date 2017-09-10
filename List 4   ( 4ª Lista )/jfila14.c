@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/JFILA14/
+// (Name of the problem) JFILA14 - Fila
+
 #include<stdio.h>
 int main (void){
        int N, n0, M, m0;

@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/NOTAS14/
+// (Name of the problem) NOTAS14 - Notas
+
 #include<stdio.h>
 int main(void){
 
@@ -12,8 +15,7 @@ int main(void){
 			m = A[i];
 			M = i;
 		}
-	}			
+	}
 	printf("%d\n", M);
-		
-	
+
 }

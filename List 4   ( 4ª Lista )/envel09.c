@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/ENVEL09/
+// (Name of the problem) ENVEL09 - Número de Envelopes
+
 #include<stdio.h>
 int main(void){
 
@@ -15,10 +18,9 @@ int main(void){
 	for (int i = 1; i <= K; i++){
 		if (vet[i] < env){
 			env = vet[i];
-			
+
 		}
 		// printf("%d\n", env);
 	}
 	printf("%d\n", env);
-
 }

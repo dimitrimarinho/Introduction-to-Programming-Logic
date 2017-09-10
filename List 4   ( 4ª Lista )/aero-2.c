@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/AERO/
+// (Name of the problem) AERO - Aeroporto
+
 #include<stdio.h>
 int main(void){
 
@@ -5,7 +8,7 @@ int main(void){
 	scanf("%d%d", &A, &V);
 	while (A != 0 && V != 0){
 		int aero[101] = {};
-		
+
 		for (int i = 0; i < V; i++){
 			scanf("%d%d", &X, &Y);
 			aero[X]+= 1;
@@ -26,7 +29,7 @@ int main(void){
 		printf("\n\n");
 		scanf("%d%d", &A, &V);
 		m = 0;
-		
+
 	}
 	return 0;
 }

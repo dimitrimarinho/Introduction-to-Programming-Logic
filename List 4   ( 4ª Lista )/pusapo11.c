@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/PUSAPO11/
+// (Name of the problem) PUSAPO11 - Pulo do sapo
+
 #include<stdio.h>
 int main(void){
 
@@ -9,8 +12,8 @@ int main(void){
 		vet[i] = 0;
 	}
 	for (int i = 0; i < M ; i++){
-	
-		scanf("%d%d", &P, &D);	
+
+		scanf("%d%d", &P, &D);
 		vet[P-1]= 1;
 		for (int j = 1; j <= N; j++){
 			if ((P-1) + D * j >= 0 && (P-1) + D * j < N){
@@ -26,9 +29,4 @@ int main(void){
 	for (int i = 0; i < N; i++){
 		printf("%d\n", vet[i]);
 	}
-
-
-
-
-
 }
