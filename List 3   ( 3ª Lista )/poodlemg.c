@@ -1,6 +1,9 @@
-#include <stdio.h>
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/POODLEMG/
+// (Name of the problem) POODLEMG - Poodle
 
+#include <stdio.h>
 int main(void) {
+
 	int N, P, pag;
 	scanf("%d%d", &N, &P);
 	while (N != 0 && P != 0){
@@ -16,7 +19,7 @@ int main(void) {
 				for (int i = 0; i < (pag - 4) ; i++){
 					printf("o");
 				}
-				
+
 			}
 			else if (pag >= 20) {
 				printf("oooooooooooooooo");
@@ -26,4 +29,5 @@ int main(void) {
 		scanf("%d%d", &N, &P);
 	}
 	return 0;
+
 }

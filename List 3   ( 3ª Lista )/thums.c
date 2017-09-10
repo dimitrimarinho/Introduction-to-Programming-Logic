@@ -1,3 +1,5 @@
+// This problem is not available in the SPOJ. It was made available by a PDF in CDMOJ.
+
 #include<stdio.h>
 int main(void){
 
@@ -11,7 +13,4 @@ int main(void){
 			printf("THUMS THUMS THUMS THUMS THUMS THUMS\n");
 		}
 	}
-
-
-
 }
