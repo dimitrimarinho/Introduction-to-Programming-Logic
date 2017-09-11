@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/JVESTI08/
+// (Name of the problem) JVESTI08 - Vestibular
+
 #include<stdio.h>
 #include<string.h>
 int main(void){

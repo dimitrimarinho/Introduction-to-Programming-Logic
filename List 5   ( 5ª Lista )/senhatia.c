@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/SENHATIA/
+// (Name of the problem) SENHATIA - Senha da Tia
+
 #include<stdio.h>
 int main (void){
 
@@ -10,13 +13,13 @@ int main (void){
 		n = i;
 		if (senha[i] >= 97 && senha[i] <= 122){
 			m += 1;
-		} 
+		}
 		else if (senha[i] >= 65 && senha[i] <= 90){
 			a += 1;
-		}  
+		}
 		else if (senha[i] >= 48 && senha[i] <= 57){
 			k += 1;
-		}  
+		}
 	}
 	if (n >= N && m >= M && a >= A && k >= K) {
 		printf("Ok =/\n");

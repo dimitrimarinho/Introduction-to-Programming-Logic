@@ -1,9 +1,12 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/LETRA14/
+// (Name of the problem) LETRA14 - Letras
+
 	#include<iostream>
 	#include<string>
 	#include<iomanip>
-	using namespace std; 
+	using namespace std;
 	int main(void){
-	
+
 		cout << fixed << setprecision(1);
 		char c;
 		string text;
@@ -21,10 +24,9 @@
 				e++;
 				p = 0;
 			}
-			
-				 
 		}
 		// cout << e << " " << a << endl;
 		r = ((float)e/a) * 100;
-		cout << r << endl;	
-		}
+		cout << r << endl;
+
+}

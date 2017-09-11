@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/ONZE/
+// (Name of the problem) ONZE - Você pode dizer 11
+
 #include<stdio.h>
 #include<string.h>
 int main(void){
@@ -11,7 +14,7 @@ int main(void){
 		}
 		// printf("%d", (int)strlen(onze));
 		for (i = (int)strlen(onze)-1, j = (int)strlen(onze)-2; i > 0 ; i=i-2, j=j-2){
-			
+
 
 			s1 += onze[i] - '0';
 			// printf("\n s1 é %d \n", s1);
@@ -24,7 +27,7 @@ int main(void){
 			}
 		if (strlen(onze) == 1){
 			printf("%s is not a multiple of 11.\n", onze);
-		}		
+		}
 		else if ((s1-s2) >= 0){
 			if ((s1-s2)%11 == 0){
 				printf("%s is a multiple of 11.\n", onze);

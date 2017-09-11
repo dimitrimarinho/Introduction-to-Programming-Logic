@@ -1,6 +1,10 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/TEL8/
+// (Name of the problem) TEL8 - Telefone
+
 	#include<stdio.h>
 	#include<string.h>
 	int main(void){
+
 	char tel[15];
 	scanf("%s", tel);
 	for (int i = 0 ; i < strlen(tel) ; i++){
@@ -28,8 +32,9 @@
 		else if (tel[i] == 'W'|| tel[i] == 'X'|| tel[i] == 'Y'|| tel[i] == 'Z'){
 			tel[i] = '9';
 		}
-		
+
 	}
 	printf("%s\n", tel);
-	return 0;	
+	return 0;
+
 	}

@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/AUTO08/
+// (Name of the problem) AUTO08 - Auto Estrada
+
 #include<stdio.h>
 int main(void){
 
@@ -14,6 +17,5 @@ int main(void){
 			p+=1;
 	}
 	printf("%d\n", p);
-
 
 }
