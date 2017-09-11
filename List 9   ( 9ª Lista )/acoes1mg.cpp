@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/ACOES1MG/
+// (Name of the problem) ACOES1MG - Investindo no mercado de açőes 1
+
 #include<iostream>
 using namespace std;
 int portfolio (int N, int K);
@@ -7,7 +10,7 @@ int main(){
 	while (cin >> N >> K, N != 0 && K !=0){
 
 		cout << portfolio(N, K) << endl;
-	
+
 	}
 
 
