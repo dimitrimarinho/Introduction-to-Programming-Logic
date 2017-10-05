@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/PACMAN14/
+// (Name of the problem) PACMAN14 - PacMan
+
 #include<stdio.h>
 int main(void){
 
@@ -7,8 +10,8 @@ int main(void){
 	char c;
 	for (int i=0; i < N; i++){
 		for (int j=0; j < N; j++){
-			scanf(" %c", &c);			
-			t[i][j] = c;			
+			scanf(" %c", &c);
+			t[i][j] = c;
 		}
 	}
 	for (int i=0; i < N; i++){
@@ -37,7 +40,7 @@ int main(void){
 					food = 0;
 				}
 			}
-		}	
+		}
 	}
 	printf("%d\n", foodm);
 	return 0;

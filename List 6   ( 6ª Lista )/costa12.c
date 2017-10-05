@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/COSTA12/
+// (Name of the problem) COSTA12 - Costa
+
 #include<stdio.h>
 int main(void){
 

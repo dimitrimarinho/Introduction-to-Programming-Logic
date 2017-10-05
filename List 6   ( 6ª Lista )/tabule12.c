@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/TABULE12/
+// (Name of the problem) TABULE12 - O Tabuleiro Esburacado
+
 #include<stdio.h>
 int main(void){
 
@@ -17,7 +20,7 @@ int main(void){
 			atual = board[x][y];
 			if (atual == -1){
 				break;
-			}	
+			}
 
 		}
 		else if (mi == 2){
@@ -76,8 +79,8 @@ int main(void){
 				break;
 			}
 		}
-		
+
 	}
 	printf("%d\n", save+1);
-	
+
 }

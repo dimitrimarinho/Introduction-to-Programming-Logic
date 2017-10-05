@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/CHUVA11/
+// (Name of the problem) CHUVA11 - Chuva
+
 #include<stdio.h>
 int main (void){
 
@@ -8,7 +11,7 @@ int main (void){
 		for (int j = 0; j < N; j++){
 			scanf("%d", &chuva[i][j]);
 		}
-	} 
+	}
 	for (int i = 0; i < N; i++){
 		for (int j = 0; j < N; j++){
 			scanf("%d", &xi);

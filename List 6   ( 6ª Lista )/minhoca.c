@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/MINHOCA/
+// (Name of the problem) MINHOCA - Campo de Minhocas
+
 #include<stdio.h>
 int main(void){
 
@@ -25,7 +28,7 @@ int main(void){
 		}
 		soma = 0;
 	}
-	
+
 	printf("%d\n", maiorsoma);
 	return 0;
 }
