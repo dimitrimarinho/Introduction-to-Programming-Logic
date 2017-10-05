@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): https://moj.naquadah.com.br/contests/mata37-ufba-20171-l8/BuscaBinaria.pdf
+// (Name of the problem) Busca Binária
+
 #include<stdio.h>
 int main (void){
 
@@ -38,5 +41,3 @@ int main (void){
 		printf("%d\n", answ[w]);
 	}
 }
-
-// https://moj.naquadah.com.br/contests/mata37-ufba-20171-l8/BuscaBinaria.pdf

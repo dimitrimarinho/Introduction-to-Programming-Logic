@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/PROIBIDO/
+// (Name of the problem) PROIBIDO - Número Proibido
+
 #include<iostream>
 using namespace std;
 int BuscaBinaria(int pi[], int busca, int N);
@@ -12,11 +15,11 @@ int main(){
 	for (int i = 0; i < N; i++){
 		cin >> pi[i];
 	}
-	
+
 	quick_sort(pi, 0, N-1);
 
 	while(cin >> p){
-		
+
 		if (BuscaBinaria(pi,p, N) == 1){
 			cout << "sim\n";
 		}
@@ -31,8 +34,8 @@ int main(){
 
 int BuscaBinaria(int pi[], int busca, int N){
 
-	int ini = 0, fim = N-1;	
-	
+	int ini = 0, fim = N-1;
+
 	while (ini <= fim){
 		int m = (ini+fim)/2;
 		if(busca > pi[m])
@@ -48,11 +51,11 @@ int BuscaBinaria(int pi[], int busca, int N){
 
 void quick_sort(int *a, int left, int right) {
     int i, j, x, y;
-     
+
     i = left;
     j = right;
     x = a[(left + right) / 2];
-     
+
     while(i <= j) {
         while(a[i] < x && i < right) {
             i++;
@@ -68,7 +71,7 @@ void quick_sort(int *a, int left, int right) {
             j--;
         }
     }
-     
+
     if(j > left) {
         quick_sort(a, left, j);
     }
@@ -76,7 +79,3 @@ void quick_sort(int *a, int left, int right) {
         quick_sort(a, i, right);
     }
 }
-
-	
-
-

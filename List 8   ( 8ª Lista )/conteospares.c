@@ -1,3 +1,6 @@
+// Link of the problem (language PT-BR): https://moj.naquadah.com.br/contests/mata57-ufba-20171-l5/ConteOsPares.pdf
+// (Name of the problem) Conte os Pares!
+
 #include<stdio.h>
 int BuscaBinaria(int verpares[], int busca, int N);
 void quick_sort(int *a, int left, int right);
@@ -19,16 +22,16 @@ int main(void){
 		if (BuscaBinaria(verpares,verpares[i] + K, N) == 1){
 			pares+=1;
 		}
-	} 
+	}
 
 	printf("%d\n", (pares/2));
 
 }
 
 	int BuscaBinaria(int verpares[], int busca, int N){
-	
-	int ini = 0, fim = N-1;	
-		
+
+	int ini = 0, fim = N-1;
+
 		while (ini <= fim){
 			int m = (ini+fim)/2;
 			if(busca > verpares[m])
@@ -44,11 +47,11 @@ int main(void){
 
 void quick_sort(int *a, int left, int right) {
     int i, j, x, y;
-     
+
     i = left;
     j = right;
     x = a[(left + right) / 2];
-     
+
     while(i <= j) {
         while(a[i] < x && i < right) {
             i++;
@@ -64,7 +67,7 @@ void quick_sort(int *a, int left, int right) {
             j--;
         }
     }
-     
+
     if(j > left) {
         quick_sort(a, left, j);
     }
@@ -72,15 +75,3 @@ void quick_sort(int *a, int left, int right) {
         quick_sort(a, i, right);
     }
 }
-
-
-
-	/* Verificar Ordenação
-
-		printf("\n");
-	for (int p = 0; p < N; p++){
-		printf("%d ", verpares[p]);
-	} */ 
-
-
-
