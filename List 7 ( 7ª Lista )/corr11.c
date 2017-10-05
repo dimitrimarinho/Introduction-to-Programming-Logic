@@ -1,8 +1,10 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/CORR11/
+// (Name of the problem) CORR11 - Corrida
 // Insertion Sort
 
 #include<stdio.h>
 int main(){
-	
+
 	int d, swap;
 	long N, M, volta;
 	scanf("%ld%ld", &N, &M);
@@ -28,8 +30,8 @@ int main(){
 		}
 	}
 	for (int print = 0; print < 3; print++){
-		for (int looking = 0; looking < N; looking++){		
-			if (pos[print] == ident[looking]){			
+		for (int looking = 0; looking < N; looking++){
+			if (pos[print] == ident[looking]){
 				printf("%d\n", ++looking);
 			}
 		}

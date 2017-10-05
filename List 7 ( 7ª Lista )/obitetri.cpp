@@ -1,18 +1,19 @@
-/* Link do Problema : http://br.spoj.com/problems/OBITETRI/ */
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/OBITETRI/
+// (Name of the problem) OBITETRI - Tetris
 
 #include<iostream>
 #include<string>
 using namespace std;
 int main(){
-	
+
 	ios_base::sync_with_stdio(false);
 	int J, j, test = 0, maior_pont, aux_pont, menor_alfab;
-	
+
 	while (cin >> J, J != 0){
 
 		string player[J], aux_player;
 		int pont, soma[J], position[J];
-	
+
 		for (int clear = 0; clear < J; clear++){
 			soma[clear] = 0;
 			position[clear] = 0;
@@ -37,7 +38,7 @@ int main(){
 				soma[i] += pont;
 			}
 			soma[i] -= (max+min);
-			
+
 		}
 
 		for (int i = 0; i < J-1; i++){
@@ -64,14 +65,12 @@ int main(){
 			else
 				position[i]=i+1;
 		}
-		
+
 		cout << "Teste " << ++test << endl;
 
 		for (int i = 0; i < J; i++){
 			cout << position[i] << " " << soma[i] << " " <<  player[i] << endl;
 		}
-		cout << endl;  
-
+		cout << endl;
 	}
-
 }

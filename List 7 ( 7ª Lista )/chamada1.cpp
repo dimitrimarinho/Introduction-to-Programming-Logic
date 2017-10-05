@@ -1,10 +1,11 @@
-// http://br.spoj.com/problems/CHAMADA1/
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/CHAMADA1/
+// (Name of the problem) CHAMADA1 - Chamada
 
 #include<iostream>
 #include<string>
 using namespace std;
 int main(void){
-    
+
     int N, K;
     cin >> N >> K;
     string name[N], aux;

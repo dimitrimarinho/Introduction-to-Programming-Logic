@@ -1,3 +1,7 @@
+// Link of the problem (language PT-BR): http://br.spoj.com/problems/FLIPERAM/
+// (Name of the problem) FLIPERAM - Fliperama
+// Bubble Sort
+
 #include<stdio.h>
 void bubble_sort(long int[], long int);
 int main(){
@@ -28,5 +32,3 @@ void bubble_sort(long int score[], long int N){
 		}
 	}
 }
-
-	
