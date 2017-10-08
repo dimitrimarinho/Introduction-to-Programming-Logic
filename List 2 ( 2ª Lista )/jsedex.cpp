@@ -2,7 +2,6 @@
 // (Name of the problem) JSEDEX - Sedex
 
 #include<iostream>
-#include<math.h>
 using namespace std;
 int main(void){
 
